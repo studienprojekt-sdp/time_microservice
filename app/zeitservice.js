@@ -8,7 +8,7 @@ if (process.argv[2]  != null) {
     requestURL = "http://worldtimeapi.org/api/timezone/" + process.argv[2];
     localTime = false;
 } else {
-    requestURL = "http://worldtimeapi.org/api/p";
+    requestURL = "http://worldtimeapi.org/api/ip";
 }
 
 var config = {
