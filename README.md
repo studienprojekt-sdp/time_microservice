@@ -1,4 +1,4 @@
-Microservice to return time
+Microservice to return the current time
 
 using World Time API: https://worldtimeapi.org
 and Axios: https://axios-http.com/docs/intro
