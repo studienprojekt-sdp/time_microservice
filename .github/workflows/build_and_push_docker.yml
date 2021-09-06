@@ -37,7 +37,6 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           push: true
           tags:  ${{ secrets.DOCKER_HUB_USERNAME }}/studienprojekt_sdp:latest
-          cache: enabled
           
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}     
