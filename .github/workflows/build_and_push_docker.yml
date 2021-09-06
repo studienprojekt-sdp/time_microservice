@@ -44,8 +44,5 @@ jobs:
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
           
-      - name: Run Docker container
-        run: docker run -dit studienprojekt_sdp:latest
-          
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
