@@ -2,3 +2,5 @@
 # the needed modules are installed automatically with "npm -i" using the code in the package.json
 node_modules/ 
 README.md
+config.js
+.github/

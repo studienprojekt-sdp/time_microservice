@@ -2,3 +2,4 @@
 # the needed modules are installed automatically with npm anyway
 node_modules
 npm-debug.log
+.github/
