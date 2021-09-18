@@ -18,8 +18,6 @@ function end() {
 
 start();
 
-// this is a test
-
 // the process.argv[] array saves the parameters, if [2] is null, we return the time at the current ip address
 // if [2] is not null we return the time for the specified timezone
 if (process.argv[2]  != null) {
