@@ -1,9 +1,7 @@
 name: CI to Docker Hub
 
 on:
-  push:
-    tags:
-      - "v*.*.*"
+  [pull_request]
 
 jobs:
 
