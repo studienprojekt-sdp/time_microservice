@@ -1,7 +1,9 @@
 name: CI to Docker Hub
 
 on:
-  [pull_request]
+  pull_request:
+    branches:
+     -main
 
 jobs:
 
