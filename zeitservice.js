@@ -18,7 +18,7 @@ function end() {
 
 start();
 
-console.log("Hello World!");
+// testing123...
 
 // the process.argv[] array saves the parameters, if [2] is null, we return the time at the current ip address
 // if [2] is not null we return the time for the specified timezone

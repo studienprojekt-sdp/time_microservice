@@ -1,12 +1,15 @@
 name: CI to Docker Hub
 
 on:
-  [pull_request]
+  pull_request:
+    branches:
+     -main
 
 jobs:
 
   build:
     runs-on: ubuntu-latest
+    name: Build Docker Container and Upload to Dockerhub
 
     steps:
 
