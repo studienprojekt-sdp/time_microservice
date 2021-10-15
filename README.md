@@ -14,7 +14,7 @@ time is returned in ISO-8601 format
 create with:   `docker build . -t <image_name>`
 
 #### Start the container and let it run in the background
-start with:  `docker run -dit <image_name>`
+start with:  `docker run -dit --name <container_name> <image_name>`
 
 #### Enter the shell of the specified container to run the commands
 exec with: `docker exec -it <container_id> bash`
